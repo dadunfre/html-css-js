@@ -1,0 +1,21 @@
+<div class="content">
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nisi tempore quam iure ratione, expedita ullam quasi est, dolorum ab eligendi necessitatibus quaerat sunt debitis sequi? Quis alias odio asperiores.</p>
+  <p class="text">Repudiandae temporibus quibusdam at molestias dolore esse odit architecto in, quam magnam aperiam deserunt, repellendus molestiae voluptate, veniam commodi consequatur magni aliquid aut debitis! Tempora, quam. Repellendus consectetur libero illo.</p>
+  <p class="text">Inventore, odit quas qui! Facere eius necessitatibus, veritatis non delectus illo aliquid soluta animi nulla maiores qui, quod iste eaque voluptatibus tenetur eligendi? Laborum fugiat, repellat illo rem. Enim, sit.</p>
+  <p class="text">Corporis minima illo obcaecati possimus repellendus cupiditate natus recusandae molestiae, nobis consequatur deleniti assumenda ipsum saepe id? Delectus vel recusandae voluptatem sed eius nemo voluptate, deserunt magni illo quia, debitis.</p>
+  <p class="text">Eius architecto, enim doloremque tenetur voluptatem tempora commodi earum doloribus maiores quaerat, vero nostrum temporibus deserunt dolor quis esse nam accusamus nemo autem, aliquam maxime quod sint? Quam, velit, molestiae!</p>
+</div>
+
+<!-- CSS -->
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex-grow: 1;
+  flex-basis: 200px;
+  margin: 5px;
+  border: 1px solid #000;
+  padding: 5px;
+}
